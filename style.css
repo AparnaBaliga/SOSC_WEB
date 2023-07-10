@@ -1,0 +1,89 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #263a20;
+}
+
+.card{
+    background-color: #eaf4bc;
+    margin: 100px auto;
+    color:#2c4723;
+    border-radius: 10px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 1);
+}
+
+.profile-cover{
+    height:150px;
+    width:100%;
+    border-radius: 5px 5px 0 0;
+    background: url(https://images.unsplash.com/photo-1631621926784-2bb6363144fc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGdyZWVuYXJ5fGVufDB8MHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60);
+}
+
+.profile-pic{
+    height: 110px;
+    width: 110px;
+    border-radius: 100px;
+    margin:95px 0 0 -170px;
+    border: 1px solid #eaf4bc;
+    padding:5px;
+    background: #eaf4bc;
+}
+
+.profile-name{
+    font-size: 27px;
+    font-weight: bold;
+    margin: 25px 0 0 140px;
+}
+
+.profile-des{
+    margin-top: 30px;
+    line-height:20px;
+}
+
+.message{
+    border:1px solid #5c6060;
+    padding:5px 15px;
+    color: #231e39;
+    border-radius: 25px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    background: transparent;
+    cursor: pointer;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.message:hover{
+    color: #3b6723;
+    background-color: #b6fe00b2;
+    transition: 0.5s;
+}
+
+.card a:hover{
+    color:#117977;
+}
+
+.fa:hover {
+    opacity: 0.3;
+}
+
+.fa-linkedin {
+    color: rgb(42, 103, 217);
+}
+
+.fa-instagram {
+    
+    color: rgb(217, 42, 103);
+}
+
+.fa-github {
+    
+    color: rgb(0, 0, 0);
+}
+.fa {
+    padding: 5px;
+    font-size: 30px;
+    width: 60px;
+    text-decoration: none;
+    margin: 5px 25px;
+}
